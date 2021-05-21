@@ -24,9 +24,10 @@ public class Requests extends RequestDonationList{
 
     }
 
-    public void add(RequestDonation RD, Beneficiary B, Material M) {
+    public void add(RequestDonation RD, Beneficiary B, Material M, int counter) {
         if(validRequestDonation(RD , B, M)){
             super.add(RD);
+            counter++;
         }
     }
 
@@ -46,5 +47,7 @@ public class Requests extends RequestDonationList{
            System.out.println("Ekanes malakia");
        }
     }
+
+
 
 }

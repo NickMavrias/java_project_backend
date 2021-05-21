@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Organization {
 
+
     //const
     public Organization(String name) {
         this.name = name;
@@ -15,6 +16,7 @@ public class Organization {
     private ArrayList<Beneficiary> beneficiaryList = new ArrayList<Beneficiary>();
     private RequestDonationList currentDonations;
     private ArrayList<Service> serviceList=new ArrayList<>();
+    private int counter;
 
     //setters
     public void setAdmin(Admin admin) {
@@ -66,15 +68,17 @@ public class Organization {
     }
 
     public void listEntities() {
+        counter=0;
         for (Entity i : entityList) {
-            System.out.println(i.getName() + " " +  i.getDescription() + " " + i.getId() + " ");
+            System.out.println(++counter + ". " + i.getName() + " " +  i.getDescription() + " " + i.getId() + " (" + i.getPosotita() + ") ");
         }
         System.out.println();
     }
 
     public void listBeneficiaries() {
+        counter=0;
         for (Beneficiary k : beneficiaryList) {
-            System.out.print(k);
+            System.out.println(++counter + ". " + k.getName());
         }
         System.out.println();
     }
@@ -95,8 +99,9 @@ public class Organization {
     }
 
     public void listServicies(){
+        counter=0;
         for(Service i: serviceList){
-            System.out.println(i.getName() + " " +  i.getDescription() + " " + i.getId() + " ");
+            System.out.println(++counter + ". " + i.getName() + " " +  i.getDescription() + " " + i.getId() + " (" + i.getPosotita() + ") ");
         }
         System.out.println();
     }

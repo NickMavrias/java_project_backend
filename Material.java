@@ -18,8 +18,8 @@ public class Material extends Entity{
         return level3;
     }
 
-    public Material(String name, String description, int id) {
-        super(name, description, id);
+    public Material(String name, String description, int id, int posotita) {
+        super(name, description, id, posotita);
     }
 
     public String getDetails(Beneficiary B){
@@ -32,3 +32,4 @@ public class Material extends Entity{
         }
     }
 }
+

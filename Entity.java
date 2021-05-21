@@ -4,12 +4,14 @@ abstract class Entity {
     private String name;
     private String description;
     private int id;
+    private int posotita;
 
     //cost
-    public Entity(String name, String description, int id) {
+    public Entity(String name, String description, int id, int posotita) {
         this.name = name;
         this.description = description;
         this.id = id;
+        this.posotita=posotita;
     }
 
     //setters
@@ -25,6 +27,10 @@ abstract class Entity {
         this.id = id;
     }
 
+    public void setPosotita(int posotita) {
+        this.posotita = posotita;
+    }
+
     //getters
     public String getName() {
         return name;
@@ -36,6 +42,10 @@ abstract class Entity {
 
     public int getId() {
         return id;
+    }
+
+    public int getPosotita() {
+        return posotita;
     }
 
     //methods

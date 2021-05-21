@@ -22,7 +22,7 @@ public class Donator extends User{
     }
 
     public void comOffersList(Offers offersList, Organization Or, Entity En){
-        offersList.commit(Or, En);
-    }
+        offersList.commit(Or, En
+                          
 
 }

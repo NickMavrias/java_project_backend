@@ -38,14 +38,14 @@ public class Requests extends RequestDonationList{
     }
 
     public void commit(RequestDonation RD, Beneficiary B, Material M){
-       try {
-           if (validRequestDonation(RD, B, M)) {
+        try {
+            if (validRequestDonation(RD, B, M)) {
                 rdEntities.remove(RD);
-           }
-       }
-       catch(Exception e){
-           System.out.println("Ekanes malakia");
-       }
+            }
+        }
+        catch(Exception e){
+            System.out.println("Ekanes malakia");
+        }
     }
 
 

@@ -2,7 +2,7 @@ public class  Beneficiary extends User{
     //pedio
     private int noPersons=1;
     private RequestDonationList receivedList;
-    
+
     private Requests requestsList;
 
     public void setReceivedList(RequestDonationList receivedList) {

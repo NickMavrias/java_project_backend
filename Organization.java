@@ -84,8 +84,9 @@ public class Organization {
     }
 
     public void listDonators() {
-        for (Donator j : donatorList) {
-            System.out.print(j);
+        counter=0;
+        for (Donator i : donatorList) {
+            System.out.println(++counter + ". " + i.getName());
         }
         System.out.println();
     }

@@ -1,10 +1,11 @@
+
 public class Offers extends RequestDonationList{
 
     //const
     public Offers() {
     }
 
-     //methods
+    //methods
     public void commit(Organization Or, Entity En){
         try{
             Or.addEntity(En);
@@ -15,4 +16,3 @@ public class Offers extends RequestDonationList{
         }
     }
 }
-

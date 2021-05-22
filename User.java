@@ -28,4 +28,3 @@ abstract class User {
         this.phone = phone;
     }
 }
-

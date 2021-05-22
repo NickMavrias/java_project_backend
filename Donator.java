@@ -21,8 +21,8 @@ public class Donator extends User{
         offersList.remove(RD);
     }
 
-    public void comOffersList(Offers offersList, Organization Or, Entity En){
-        offersList.commit(Or, En
-                          
+    public void comOffersList(Offers offersList, Organization Or, Entity En) {
+        offersList.commit(Or, En);
 
+    }
 }

@@ -25,4 +25,8 @@ public class Donator extends User{
         offersList.commit(Or, En);
 
     }
+
+    public void getDetails(RequestDonation RD){
+        System.out.println(RD);
+    }
 }

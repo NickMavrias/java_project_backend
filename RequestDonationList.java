@@ -32,10 +32,11 @@ public class RequestDonationList {
 
     public void monitor(){
         for(RequestDonation i: rdEntities){
-            System.out.print(i);
+            System.out.print(i.getEntity());
         }
         System.out.println("");
     }
+
 
     public void reset(){
         rdEntities.clear();

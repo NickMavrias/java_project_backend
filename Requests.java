@@ -37,6 +37,10 @@ public class Requests extends RequestDonationList{
         }
     }
 
+    public void monitor(Material M){
+        System.out.println(M);
+    }
+
     public void commit(RequestDonation RD, Beneficiary B, Material M){
         try {
             if (validRequestDonation(RD, B, M)) {

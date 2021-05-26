@@ -48,7 +48,7 @@ public class Requests extends RequestDonationList{
             }
         }
         catch(Exception e){
-            System.out.println("Ekanes malakia");
+            System.out.println("Exception");
         }
     }
 

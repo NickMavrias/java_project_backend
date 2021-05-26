@@ -33,7 +33,7 @@ public class Organization {
         try {
             entityList.add(obj);
         } catch (Exception e) {
-            System.out.print("Ekanes malakia");
+            System.out.print("Exception");
         }
     }
 
@@ -47,7 +47,7 @@ public class Organization {
         try {
             donatorList.add(donor);
         } catch (Exception e) {
-            System.out.print("Ekanes malakia");
+            System.out.print("Exception");
         }
     }
 
@@ -59,7 +59,7 @@ public class Organization {
         try {
             beneficiaryList.add(benefit);
         } catch (Exception e) {
-            System.out.print("Ekanes malakia");
+            System.out.print("Exception");
         }
     }
 

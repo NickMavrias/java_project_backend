@@ -44,3 +44,4 @@ public class RequestDonation {
         else return false;
     }
 }
+

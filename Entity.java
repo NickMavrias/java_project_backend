@@ -51,7 +51,7 @@ abstract class Entity {
     //methods
     public String getEntityInfo()
     {
-        return name + description + id;
+        return name + " " + description + " " + id + "\n";
     }
 
     public String getDetails(){

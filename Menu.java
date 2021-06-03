@@ -480,10 +480,14 @@ public class Menu {
                     case 1:
                         System.out.println("Thelete na kanete add ena Request: ");
                         try {
+                            if(R.validRequestDonation(RD, mavrias, milk)){
                             zitisi.add(R);
+                            }else if(R1.validRequestDonation(RD1, mavrias, sugar)){
                             zitisi.add(R1);
+                            }else if(R2.validRequestDonation(RD2, mavrias, rice)){
                             zitisi.add(R2);
-                            System.out.println("Egine h prosthiki ths Request! ");
+                            }
+                            System.out.println("Egine h prosthiki ths Request! \n");
                         } catch (Exception e) {
                             System.out.println("H prosthiki tou Request de mporei na pragmatopoithei! ");
                         }
@@ -570,10 +574,14 @@ public class Menu {
                     case 1:
                         System.out.println("Thelete na kanete add ena Request: ");
                         try {
+                            if(R.validRequestDonation(RD, elonMusk, milk)){
                             zitisi.add(R);
+                            }else if(R1.validRequestDonation(RD1, elonMusk, sugar)){
                             zitisi.add(R1);
+                            }else if(R2.validRequestDonation(RD2, elonMusk, rice)){
                             zitisi.add(R2);
-                            System.out.println("Egine h prosthiki ths Request! ");
+                            }
+                            System.out.println("Egine h prosthiki ths Request! \n");
                         } catch (Exception e) {
                             System.out.println("H prosthiki tou Request de mporei na pragmatopoithei! ");
                         }
@@ -691,4 +699,3 @@ public class Menu {
 }
 
 //telos Project
-
